@@ -1,0 +1,38 @@
+form {
+	font-family: sans-serif !important;
+}
+form > div {
+	position: relative;
+}
+form > div > label {
+	padding:1em;
+	position: absolute;
+}
+input {
+	background: #ebebeb;
+	margin-bottom:1em;
+	border: none;
+	padding: 1em; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+}
+
+input:focus, input[value]:not([value=""]) {
+	position:inherit;
+}
+*[type=submit] {
+	background: #00bff3;
+	color: white;
+	width: 14.8em;
+	height: 3em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+}
+a{
+	display: block;
+	margin: 1em 0;
+}
