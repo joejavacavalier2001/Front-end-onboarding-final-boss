@@ -1,0 +1,23 @@
+
+input:focus, input[value]:not([value=""]){
+	position: inherit; 
+	background: #ebebeb;
+}
+
+
+input {
+	background: #ebebeb;
+	margin: 0 0 1em !important;
+	border: none;
+	padding: 1em;
+    @include make-rounded-corners(10px);	
+}
+
+*[type=submit] {
+	background: #00bff3;
+	color: white;
+	width: 18em;
+	height: 3.5em;
+    @include make-rounded-corners(10px);	
+}
+
